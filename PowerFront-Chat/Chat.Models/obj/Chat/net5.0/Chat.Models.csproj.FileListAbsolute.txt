@@ -1,0 +1,12 @@
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Models\bin\Chat\net5.0\Chat.Models.deps.json
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Models\bin\Chat\net5.0\Chat.Models.dll
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Models\bin\Chat\net5.0\ref\Chat.Models.dll
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Models\bin\Chat\net5.0\Chat.Models.pdb
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Models\obj\Chat\net5.0\Chat.Models.csproj.AssemblyReference.cache
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Models\obj\Chat\net5.0\Chat.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Models\obj\Chat\net5.0\Chat.Models.AssemblyInfoInputs.cache
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Models\obj\Chat\net5.0\Chat.Models.AssemblyInfo.cs
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Models\obj\Chat\net5.0\Chat.Models.csproj.CoreCompileInputs.cache
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Models\obj\Chat\net5.0\Chat.Models.dll
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Models\obj\Chat\net5.0\ref\Chat.Models.dll
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Models\obj\Chat\net5.0\Chat.Models.pdb

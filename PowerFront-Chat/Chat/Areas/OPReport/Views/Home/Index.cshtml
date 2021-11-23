@@ -1,0 +1,131 @@
+﻿@model Chat.Models.ViewModels.OperatorReportItems
+@{ ViewBag.Title = "Operator Report"; }
+<form method="post">
+    <div class="row pb-3 backgroundWhite">
+        <br />
+        <div class="row">
+            <div class="m-2">
+                <h2 class="text-primary">Operator Report</h2>
+            </div>
+
+        </div>
+
+        <br />
+        <br />
+        <div class="p-4 border rounded">
+            <div class="form-group row">
+                <div class="col-4">
+                    WebSite
+                </div>
+                <div class="col-8">
+                    @Html.DropDownListFor(m => m.Conversation.Website, Model.WebSiteList, "-Select a Website",
+                                                                     new { @class = "form-control" })
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    Device
+                </div>
+                <div class="col-8">
+                    @Html.DropDownListFor(m => m.Visitor.Device, Model.DeviceList, "-Select a Device",
+                                                                                         new { @class = "form-control" })
+
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+
+                    Pre-Defined:
+                    <input id="filter" class="radio" name="filter" value="Pre-Defined" type="radio">
+                    Custom:
+                    <input id="filter" name="filter" class="radio" value="Custom" type="radio">
+
+                </div>
+                <div class="col-8">
+                    <div id="Predefine">
+                        @Html.DropDownListFor(m => m.PreDefineFilterValue.value, Model.PreDefineFilter, "-Select a filter",
+                                                                                             new { @class = "form-control" })
+                    </div>
+                    <br />
+                    <div id="Custom">
+                        <div class="form-group row">
+                            <div class="col-6">
+                                From Date: <input class="form-control" asp-for="Conversation.StartDate" asp-format="{0:yyyy-MM-ddTHH:mm}" />
+
+                            </div>
+                            <div class="col-6">
+                                To Date: <input class="form-control" asp-for="Conversation.EndDate" asp-format="{0:yyyy-MM-ddTHH:mm}" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-group row align-content-center">
+                <div class="col-10"></div>
+                <div class="col-2 align-items-md-end">
+                    <button type="submit" class="btn btn-success form-control align-content-center">Search</button>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="form-group">
+                <span style="float:right; text-align:right"> @Html.ActionLink("Excel Export", "Export", new { @class = "btn btn-success form-control" })</span>
+            </div>
+
+            <table id="tblData" class="table table-striped table-bordered" style="width:100%">
+                <thead class="alert-light">
+                    <tr class="table-info">
+                        <th>S.No.</th>
+                        <th>Operator Name</th>
+                        <th>Proactive Sent</th>
+                        <th>Proactive Answered</th>
+                        <th>Proactive Response Rate</th>
+                        <th>Reactive Received</th>
+                        <th>Reactive Answered</th>
+                        <th>Reactive Response Rate</th>
+                        <th>Total Chat Length</th>
+                        <th>Average Chat Length</th>
+                    </tr>
+                    @foreach (var item in Model.OperatorProductivity)
+                    {
+        <tr>
+            <td>@item.OperatorID</td>
+            <td>@item.Name</td>
+            <td>@item.ProactiveSent</td>
+            <td>@item.ProactiveAnswered</td>
+            <td>@item.ProactiveResponseRate%</td>
+            <td>@item.ReactiveReceived</td>
+            <td>@item.ReactiveAnswered</td>
+            <td>@item.ReactiveResponseRate%</td>
+            <td>@item.TotalChatLength</td>
+            <td>@item.AverageChatLength</td>
+        </tr>}
+                </thead>
+            </table>
+        </div>
+
+    </div>
+</form>
+
+
+@section Scripts{
+   
+    <script>
+        $(document).ready(function () {
+            $("input[Value='Pre-Defined']").click(function () {
+                $("#Predefine").show();
+                $("#Custom").hide();
+            });
+            $("input[Value='Custom']").click(function () {
+                $("#Custom").show();
+                $("#Predefine").hide();
+            });
+        });
+    </script>
+
+}
+
+

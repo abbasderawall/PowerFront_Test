@@ -1,0 +1,12 @@
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Utility\bin\Release\net5.0\Chat.Utility.deps.json
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Utility\bin\Release\net5.0\Chat.Utility.dll
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Utility\bin\Release\net5.0\ref\Chat.Utility.dll
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Utility\bin\Release\net5.0\Chat.Utility.pdb
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Utility\obj\Release\net5.0\Chat.Utility.csproj.AssemblyReference.cache
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Utility\obj\Release\net5.0\Chat.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Utility\obj\Release\net5.0\Chat.Utility.AssemblyInfoInputs.cache
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Utility\obj\Release\net5.0\Chat.Utility.AssemblyInfo.cs
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Utility\obj\Release\net5.0\Chat.Utility.csproj.CoreCompileInputs.cache
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Utility\obj\Release\net5.0\Chat.Utility.dll
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Utility\obj\Release\net5.0\ref\Chat.Utility.dll
+D:\Projects\ABBAS_TEST\PowerFront-Chat\Chat.Utility\obj\Release\net5.0\Chat.Utility.pdb
