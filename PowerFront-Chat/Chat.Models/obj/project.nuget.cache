@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4QS/DPLeUF68iQxHQQLKsK1SSSG2vpArznllejde1SGq9u/XpvO9BIVU+OpYLpiuNwIpFGfl6osQwfE5DI5+qQ==",
+  "dgSpecHash": "V9eORUNPbIxheIW11mmH4xB5AlB1Bbp9O/6EZKAU16fmXcTnQ90JSiTUMRgPfjODERe6dl8hOXTNcOGCMiECJQ==",
   "success": true,
-  "projectFilePath": "D:\\ABBAS_TEST\\PowerFront-Chat\\Chat.Models\\Chat.Models.csproj",
+  "projectFilePath": "D:\\ABBAS_TEST\\PowerFront_Test\\PowerFront-Chat\\Chat.Models\\Chat.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

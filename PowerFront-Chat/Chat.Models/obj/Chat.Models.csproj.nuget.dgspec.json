@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ABBAS_TEST\\PowerFront-Chat\\Chat.Models\\Chat.Models.csproj": {}
+    "D:\\ABBAS_TEST\\PowerFront_Test\\PowerFront-Chat\\Chat.Models\\Chat.Models.csproj": {}
   },
   "projects": {
-    "D:\\ABBAS_TEST\\PowerFront-Chat\\Chat.Models\\Chat.Models.csproj": {
+    "D:\\ABBAS_TEST\\PowerFront_Test\\PowerFront-Chat\\Chat.Models\\Chat.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ABBAS_TEST\\PowerFront-Chat\\Chat.Models\\Chat.Models.csproj",
+        "projectUniqueName": "D:\\ABBAS_TEST\\PowerFront_Test\\PowerFront-Chat\\Chat.Models\\Chat.Models.csproj",
         "projectName": "Chat.Models",
-        "projectPath": "D:\\ABBAS_TEST\\PowerFront-Chat\\Chat.Models\\Chat.Models.csproj",
+        "projectPath": "D:\\ABBAS_TEST\\PowerFront_Test\\PowerFront-Chat\\Chat.Models\\Chat.Models.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
-        "outputPath": "D:\\ABBAS_TEST\\PowerFront-Chat\\Chat.Models\\obj\\",
+        "outputPath": "D:\\ABBAS_TEST\\PowerFront_Test\\PowerFront-Chat\\Chat.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

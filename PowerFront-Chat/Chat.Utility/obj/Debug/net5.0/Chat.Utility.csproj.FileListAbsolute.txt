@@ -46,3 +46,15 @@ D:\ABBAS_TEST\PowerFront-Chat\Chat.Utility\obj\Debug\net5.0\Chat.Utility.csproj.
 D:\ABBAS_TEST\PowerFront-Chat\Chat.Utility\obj\Debug\net5.0\Chat.Utility.dll
 D:\ABBAS_TEST\PowerFront-Chat\Chat.Utility\obj\Debug\net5.0\ref\Chat.Utility.dll
 D:\ABBAS_TEST\PowerFront-Chat\Chat.Utility\obj\Debug\net5.0\Chat.Utility.pdb
+D:\ABBAS_TEST\PowerFront_Test\PowerFront-Chat\Chat.Utility\bin\Debug\net5.0\Chat.Utility.deps.json
+D:\ABBAS_TEST\PowerFront_Test\PowerFront-Chat\Chat.Utility\bin\Debug\net5.0\Chat.Utility.dll
+D:\ABBAS_TEST\PowerFront_Test\PowerFront-Chat\Chat.Utility\bin\Debug\net5.0\ref\Chat.Utility.dll
+D:\ABBAS_TEST\PowerFront_Test\PowerFront-Chat\Chat.Utility\bin\Debug\net5.0\Chat.Utility.pdb
+D:\ABBAS_TEST\PowerFront_Test\PowerFront-Chat\Chat.Utility\obj\Debug\net5.0\Chat.Utility.csproj.AssemblyReference.cache
+D:\ABBAS_TEST\PowerFront_Test\PowerFront-Chat\Chat.Utility\obj\Debug\net5.0\Chat.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\ABBAS_TEST\PowerFront_Test\PowerFront-Chat\Chat.Utility\obj\Debug\net5.0\Chat.Utility.AssemblyInfoInputs.cache
+D:\ABBAS_TEST\PowerFront_Test\PowerFront-Chat\Chat.Utility\obj\Debug\net5.0\Chat.Utility.AssemblyInfo.cs
+D:\ABBAS_TEST\PowerFront_Test\PowerFront-Chat\Chat.Utility\obj\Debug\net5.0\Chat.Utility.csproj.CoreCompileInputs.cache
+D:\ABBAS_TEST\PowerFront_Test\PowerFront-Chat\Chat.Utility\obj\Debug\net5.0\Chat.Utility.dll
+D:\ABBAS_TEST\PowerFront_Test\PowerFront-Chat\Chat.Utility\obj\Debug\net5.0\ref\Chat.Utility.dll
+D:\ABBAS_TEST\PowerFront_Test\PowerFront-Chat\Chat.Utility\obj\Debug\net5.0\Chat.Utility.pdb
