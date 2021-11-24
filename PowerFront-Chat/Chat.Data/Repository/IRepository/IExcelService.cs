@@ -9,6 +9,6 @@ namespace Chat.Data.Repository.IRepository
 {
     public interface IExcelService
     {
-        public MemoryStream ExportSchoolStaff<T>(List<T> dataList, List<string> excelColumns, string sheetName = "Sheet1");
+        public MemoryStream ExportData<T>(List<T> dataList, List<string> excelColumns, string sheetName = "Sheet1");
     }
 }

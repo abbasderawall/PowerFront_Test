@@ -17,7 +17,7 @@ namespace Chat.Data.Repository
 {
     public class ExcelService : IExcelService
     {
-        public MemoryStream ExportSchoolStaff<T>(List<T> dataList, List<string> excelColumns,  string sheetName = "Sheet1")
+        public MemoryStream ExportData<T>(List<T> dataList, List<string> excelColumns,  string sheetName = "Sheet1")
         {
            
             DataTable table = (DataTable)JsonConvert.DeserializeObject(JsonConvert.SerializeObject(dataList), (typeof(DataTable)));

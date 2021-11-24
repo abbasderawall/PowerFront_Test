@@ -117,7 +117,7 @@ namespace Chat.Ares.OPReport.Controllers
                 };         
                 Stream stream = null;
                 var EXCEL_TYPE = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
-                stream = excelService.ExportSchoolStaff(items.OperatorProductivity.ToList(), PUtilities.GetExcelColumns().ToList(), "Report List");
+                stream = excelService.ExportData(items.OperatorProductivity.ToList(), PUtilities.GetExcelColumns().ToList(), "Report List");
                 if (stream == null)
                     return NotFound("Record not found");
 
